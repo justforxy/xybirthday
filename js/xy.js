@@ -265,7 +265,7 @@ $(function(){
     });
 
 	function loading(){
-		var sourceList = "loading.jpg gift.png view1-1.jpg view1-2.jpg view1-3.jpg view2-1.jpg view2-2.jpg view2-3.jpg view3-1.jpg view3-2.jpg view4-1.jpg view4-2.jpg view5-1.jpg view5-2.jpg view5-3.jpg view5-4.jpg view6-1.jpg view6-2.jpg view6-3.jpg view7-1.jpg view_bg.jpg cake.jpg".split(" ");
+		var sourceList = "loading.jpg gift.png view1-1.jpg view1-2.jpg view1-3.jpg view2-1.jpg view2-2.jpg view2-3.jpg view3-1.jpg view3-2.jpg view4-1.jpg view4-2.jpg view5-1.jpg view5-2.jpg view5-3.jpg view5-4.jpg view6-1.jpg view6-2.jpg view6-3.jpg view7-1.jpg view_bg.jpg cake.jpg wxlink.jpg".split(" ");
 		var loaded = 0;
 		for (var i=0; i<sourceList.length; i++){
 			var src = "./images/" + sourceList[i];
